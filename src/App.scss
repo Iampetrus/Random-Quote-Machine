@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  
+  #quote-box{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 2.5rem;
+    justify-content: space-between;
+    
+    background-color: white;
+    border-radius: 1px;
+    color: black;
+    width: 35vw;
+
+    #text {
+      margin-bottom:.1rem; // Añadimos margen inferior
+    }
+    #author {
+      text-align: end;
+      font-size: 1.5rem;
+      margin-bottom: 1.7rem; // Añadimos margen inferior
+    }
+    #tweet-quote {
+      color: white;
+      border-radius: 4px;
+      padding: 11px;
+      cursor: pointer;
+      border: none;
+      text-decoration: none;
+    }
+    #new-quote {
+      color: white;
+      border-radius: 4px;
+      padding: 11px;
+      cursor: pointer;
+      border: none;
+    } 
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  #buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 1rem;
+    a {
+      font-size: 1.5rem;
+      border: none;
+    }
+    button{
+      font-size: 1.5rem;
+      border: none;
+    }
+  }
+}
+
+
